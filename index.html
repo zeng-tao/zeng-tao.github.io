@@ -77,8 +77,56 @@
           
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+         <tr onmouseout="prolific_stop()" onmouseover="prolific_start()"  bgcolor="#ffffd0">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <div class="two" id='prolific_image'><video  width=100% height=100% muted autoplay loop>
+            <source src="image/dog.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video></div>
+            <img src='image/dog.jpg' width="160">
+          </div>
+          <script type="text/javascript">
+            function prolific_start() {
+              document.getElementById('prolific_image').style.opacity = "1";
+            }
+
+            function prolific_stop() {
+              document.getElementById('prolific_image').style.opacity = "0";
+            }
+            prolific_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://dl.acm.org/doi/abs/10.1145/3581783.3611972">
+            <span class="papertitle">Freq-HD: An Interpretable Frequency-based High-Dynamics Affective Clip Selection Method for in-the-Wild Facial Expression Recognition in Videos</span>
+          </a>
+          <br>
+          <strong>Zeng Tao*</strong>,
+          <a href="https://luchengthu.github.io/">Cheng Lu*</a>,
+          <a href="https://yikaiw.github.io/">Yikai Wang</a>,
+          <a href="https://baofff.github.io/">Fan Bao</a>,
+          <a href="https://zhenxuan00.github.io/">Chongxuan Li</a>,
+          <a href="https://www.suhangss.me/">Hang Su</a>,
+          <a href="https://ml.cs.tsinghua.edu.cn/~jun/index.shtml">Jun Zhu</a>
+          <br>
+          <em>NeurIPS</em>, 2023 &nbsp <font color="red"><strong>(Spotlight Presentation)</strong></font>
+          <br>
+          <a href="https://ml.cs.tsinghua.edu.cn/prolificdreamer/">project page</a>
+          /
+          <a href="https://ml.cs.tsinghua.edu.cn/prolificdreamer/static/prolificdreamer.ppsx">Slides</a>
+          /
+          <a href="https://arxiv.org/abs/2305.16213">arXiv</a>
+          /
+          <a href="https://github.com/thu-ml/prolificdreamer">Github</a>
+          <p></p>
+        </td>
+      </tr>
+
+
+            
     
-      <tr onmouseout="prolific_stop()" onmouseover="prolific_start()"  bgcolor="#ffffd0">
+<!--       <tr onmouseout="prolific_stop()" onmouseover="prolific_start()"  bgcolor="#ffffd0">
         <td style="padding:20px;width:25%;vertical-align:middle">
           <div class="one">
             <div class="two" id='prolific_image'><video  width=100% height=100% muted autoplay loop>
@@ -245,7 +293,7 @@
           <a href="https://github.com/thuwzy/Cluster-Attack">Github</a>
           <p></p>
         </td>
-      </tr>
+      </tr> -->
 
           </tbody></table>
 
