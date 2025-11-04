@@ -101,7 +101,37 @@
                 <h3 style="margin-bottom: 10px; border-bottom: none;">3D/4D/Video Generation</h3>
               </td>
             </tr>
-
+            
+            <tr onmouseout="db3d_stop()" onmouseover="db3d_start()">
+              <!-- <tr onmouseout="prolific_stop()" onmouseover="prolific_start()"  bgcolor="#ffffd0"> -->
+                <td style="padding:5px;width:25%;vertical-align:top">
+                  <div class="one">
+                    <img src='image/LCGen.png' width="160">
+                  </div>
+                  <script type="text/javascript">
+                    function db3d_start() {
+                      document.getElementById('db3d_image').style.opacity = "1";
+                    }
+        
+                    function db3d_stop() {
+                      document.getElementById('db3d_image').style.opacity = "0";
+                    }
+                    db3d_stop()
+                  </script>
+                </td>
+                <td style="padding:5px;width:75%;vertical-align:top">
+                  <a href="https://openreview.net/pdf?id=4wgzkAyi2D">
+                    <span class="papertitle">LCGen: Mining in Low-Certainty Generation for View-consistent Text-to-3D</span>
+                  </a>
+                  <br>
+                  <strong>Zeng Tao</strong>, Tong Yang, Junxiong Lin, Xinji Mai, Haoran Wang, Beining Wang, Enyu Zhou, Yan Wang, Wenqiang Zhang
+                  <br>
+                  <em>NeurIPS</em>, 2024
+                  <br>
+                  <a href="https://openreview.net/pdf?id=4wgzkAyi2D">Paper</a>
+                  <p></p>
+                </td>
+              </tr>
       
             
             <td style="padding:5px;width:25%;vertical-align:top">
@@ -165,36 +195,7 @@
                 <p></p>
               </td>
             </tr>
-            <tr onmouseout="db3d_stop()" onmouseover="db3d_start()">
-      <!-- <tr onmouseout="prolific_stop()" onmouseover="prolific_start()"  bgcolor="#ffffd0"> -->
-        <td style="padding:5px;width:25%;vertical-align:top">
-          <div class="one">
-            <img src='image/LCGen.png' width="160">
-          </div>
-          <script type="text/javascript">
-            function db3d_start() {
-              document.getElementById('db3d_image').style.opacity = "1";
-            }
-
-            function db3d_stop() {
-              document.getElementById('db3d_image').style.opacity = "0";
-            }
-            db3d_stop()
-          </script>
-        </td>
-        <td style="padding:5px;width:75%;vertical-align:top">
-          <a href="https://openreview.net/pdf?id=4wgzkAyi2D">
-            <span class="papertitle">LCGen: Mining in Low-Certainty Generation for View-consistent Text-to-3D</span>
-          </a>
-          <br>
-          <strong>Zeng Tao</strong>, Tong Yang, Junxiong Lin, Xinji Mai, Haoran Wang, Beining Wang, Enyu Zhou, Yan Wang, Wenqiang Zhang
-          <br>
-          <em>NeurIPS</em>, 2024
-          <br>
-          <a href="https://openreview.net/pdf?id=4wgzkAyi2D">Paper</a>
-          <p></p>
-        </td>
-      </tr>
+            
 
       <tr>
         <td colspan="2" style="padding: 20px 20px 10px 20px; vertical-align: middle;">
@@ -204,7 +205,7 @@
       <tr onmouseout="db3d_stop()" onmouseover="db3d_start()">
         <td style="padding:5px;width:25%;vertical-align:top">
           <div class="one">
-            <img src='image/D2SP2.png' width="160">
+            <img src='image/freq-hd.jpg' width="160">
           </div>
           <script type="text/javascript">
             function db3d_start() {
@@ -218,14 +219,17 @@
           </script>
         </td>
         <td style="padding:5px;width:75%;vertical-align:top">
-          <a href="https://arxiv.org/abs/2406.16473">
-            <span class="papertitle">D2SP: Dynamic Dual-Stage Purification Framework for Dual Noise Mitigation in Vision-based Affective Recognition.</span>
+          <a href="https://dl.acm.org/doi/abs/10.1145/3581783.3611972">
+            <span class="papertitle">Freq-HD: An Interpretable Frequency-based High-Dynamics Affective Clip Selection Method for in-the-Wild Facial Expression Recognition in Videos</span>
           </a>
-          <br>Haoran Wang, Xinji Mai, <strong>Zeng Tao</strong>, Xuan Tong, Junxiong Lin, Yan Wang, Jiawen Yu, Shaoqi Yan, Ziheng Zhou, Wenqiang Zhang
           <br>
-          <em>CVPR</em>, 2025
+          <strong>Zeng Tao</strong>, Yan Wang, Zhaoyu Chen, Boyang Wang, Shaoqi Yan, Kaixun Jiang, Shuyong Gao, Wenqiang Zhang
           <br>
-          <a href="https://arxiv.org/abs/2406.16473">Paper</a>
+          <em>ACM MM</em>, 2023 &nbsp <font color="red"><strong>(Oral)</strong></font>
+          <br>
+          <a href="https://dl.acm.org/doi/abs/10.1145/3581783.3611972">Paper</a>
+          /
+          <a href="https://github.com/zeng-tao/FreqHD">Github</a>
           <p></p>
         </td>
       </tr>
@@ -260,7 +264,7 @@
       <tr onmouseout="db3d_stop()" onmouseover="db3d_start()">
         <td style="padding:5px;width:25%;vertical-align:top">
           <div class="one">
-            <img src='image/all2.png' width="160">
+            <img src='image/D2SP2.png' width="160">
           </div>
           <script type="text/javascript">
             function db3d_start() {
@@ -274,16 +278,44 @@
           </script>
         </td>
         <td style="padding:5px;width:75%;vertical-align:top">
-          <a href="https://arxiv.org/abs/2407.15590">
-            <span class="papertitle">All rivers run into the sea: Unified Modality Brain-Inspired Emotional Central Mechanism</span>
+          <a href="https://arxiv.org/abs/2406.16473">
+            <span class="papertitle">D2SP: Dynamic Dual-Stage Purification Framework for Dual Noise Mitigation in Vision-based Affective Recognition.</span>
           </a>
-          <br>Xinji Mai, Junxiong Lin, Haoran Wang, <strong>Zeng Tao</strong>, Yan Wang, Shaoqi Yan, Xuan Tong, Jiawen Yu, Boyang Wang, Ziheng Zhou, Qing Zhao, Shuyong Gao, Wenqiang Zhang
+          <br>Haoran Wang, Xinji Mai, <strong>Zeng Tao</strong>, Xuan Tong, Junxiong Lin, Yan Wang, Jiawen Yu, Shaoqi Yan, Ziheng Zhou, Wenqiang Zhang
           <br>
-          <em>ACM MM</em>, 2024 &nbsp <font color="red"><strong>(Oral)</strong></font>
+          <em>CVPR</em>, 2025
           <br>
-          <a href="https://arxiv.org/abs/2407.15590">Paper</a>
-          /
-          <a href="https://github.com/Xinji-Mai/UMBEnet">Github</a>
+          <a href="https://arxiv.org/abs/2406.16473">Paper</a>
+          <p></p>
+        </td>
+      </tr>
+      
+
+      <tr onmouseout="db3d_stop()" onmouseover="db3d_start()">
+        <td style="padding:5px;width:25%;vertical-align:top">
+          <div class="one">
+            <img src='image/SSR2.png' width="160">
+          </div>
+          <script type="text/javascript">
+            function db3d_start() {
+              document.getElementById('db3d_image').style.opacity = "1";
+            }
+
+            function db3d_stop() {
+              document.getElementById('db3d_image').style.opacity = "0";
+            }
+            db3d_stop()
+          </script>
+        </td>
+        <td style="padding:5px;width:75%;vertical-align:top">
+          <a href="https://arxiv.org/abs/2403.05808">
+            <span class="papertitle">Adaptive Multi-modal Fusion of Spatially Variant Kernel Refinement with Diffusion Model for Blind Image Super-Resolution</span>
+          </a>
+          <br>Junxiong Lin, Yan Wang, <strong>Zeng Tao</strong>, Boyang Wang, Qing Zhao, Haoran Wang, Xuan Tong, Xinji Mai, Yuxuan Lin, Wei Song, Jiawen Yu, Shaoqi Yan, Wenqiang Zhang
+          <br>
+          <em>ECCV</em>, 2024
+          <br>
+          <a href="https://arxiv.org/abs/2403.05808">Paper</a>
           <p></p>
         </td>
       </tr>
@@ -317,11 +349,10 @@
         </td>
       </tr>
 
-            
       <tr onmouseout="db3d_stop()" onmouseover="db3d_start()">
         <td style="padding:5px;width:25%;vertical-align:top">
           <div class="one">
-            <img src='image/SSR2.png' width="160">
+            <img src='image/all2.png' width="160">
           </div>
           <script type="text/javascript">
             function db3d_start() {
@@ -335,51 +366,26 @@
           </script>
         </td>
         <td style="padding:5px;width:75%;vertical-align:top">
-          <a href="https://arxiv.org/abs/2403.05808">
-            <span class="papertitle">Adaptive Multi-modal Fusion of Spatially Variant Kernel Refinement with Diffusion Model for Blind Image Super-Resolution</span>
+          <a href="https://arxiv.org/abs/2407.15590">
+            <span class="papertitle">All rivers run into the sea: Unified Modality Brain-Inspired Emotional Central Mechanism</span>
           </a>
-          <br>Junxiong Lin, Yan Wang, <strong>Zeng Tao</strong>, Boyang Wang, Qing Zhao, Haoran Wang, Xuan Tong, Xinji Mai, Yuxuan Lin, Wei Song, Jiawen Yu, Shaoqi Yan, Wenqiang Zhang
+          <br>Xinji Mai, Junxiong Lin, Haoran Wang, <strong>Zeng Tao</strong>, Yan Wang, Shaoqi Yan, Xuan Tong, Jiawen Yu, Boyang Wang, Ziheng Zhou, Qing Zhao, Shuyong Gao, Wenqiang Zhang
           <br>
-          <em>ECCV</em>, 2024
+          <em>ACM MM</em>, 2024 &nbsp <font color="red"><strong>(Oral)</strong></font>
           <br>
-          <a href="https://arxiv.org/abs/2403.05808">Paper</a>
-          <p></p>
-        </td>
-      </tr>
-
-
-            
-      <tr onmouseout="db3d_stop()" onmouseover="db3d_start()">
-        <td style="padding:5px;width:25%;vertical-align:top">
-          <div class="one">
-            <img src='image/freq-hd.jpg' width="160">
-          </div>
-          <script type="text/javascript">
-            function db3d_start() {
-              document.getElementById('db3d_image').style.opacity = "1";
-            }
-
-            function db3d_stop() {
-              document.getElementById('db3d_image').style.opacity = "0";
-            }
-            db3d_stop()
-          </script>
-        </td>
-        <td style="padding:5px;width:75%;vertical-align:top">
-          <a href="https://dl.acm.org/doi/abs/10.1145/3581783.3611972">
-            <span class="papertitle">Freq-HD: An Interpretable Frequency-based High-Dynamics Affective Clip Selection Method for in-the-Wild Facial Expression Recognition in Videos</span>
-          </a>
-          <br>
-          <strong>Zeng Tao</strong>, Yan Wang, Zhaoyu Chen, Boyang Wang, Shaoqi Yan, Kaixun Jiang, Shuyong Gao, Wenqiang Zhang
-          <br>
-          <em>ACM MM</em>, 2023 &nbsp <font color="red"><strong>(Oral)</strong></font>
-          <br>
-          <a href="https://dl.acm.org/doi/abs/10.1145/3581783.3611972">Paper</a>
+          <a href="https://arxiv.org/abs/2407.15590">Paper</a>
           /
-          <a href="https://github.com/zeng-tao/FreqHD">Github</a>
+          <a href="https://github.com/Xinji-Mai/UMBEnet">Github</a>
           <p></p>
         </td>
       </tr>
+
+            
+      
+
+
+            
+      
 
 <!--     <tr onmouseout="db3d_stop()" onmouseover="db3d_start()">
         <td style="padding:20px;width:25%;vertical-align:middle">
